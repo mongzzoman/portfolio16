@@ -64,10 +64,10 @@ $(function () {
     // slidesPerView: 4.5,
     loop: true,
     spaceBetween: 50,    
-    autoplay: {
-      delay: 3500,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 3500,
+    //   disableOnInteraction: false,
+    // },
     scrollbar: {
       el: ".swiper-scrollbar",
       clickable: true,
@@ -98,6 +98,10 @@ $(function () {
       },
       320: {
         slidesPerView: 3,
+        // spaceBetween: 20,
+      },
+      270: {
+        slidesPerView: 2,
         // spaceBetween: 20,
       }
     }

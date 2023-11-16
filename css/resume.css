@@ -307,6 +307,12 @@ em {
   transform: scale(1.1) translate(-45%, -45%);
 }
 
+.skill .skill-box .Illustrator {
+  align-items: center;
+}
+.skill .skill-box .Photoshop {
+  align-items: center;
+}
 /* right - charactor */
 .charactor {
   width: 100%;
