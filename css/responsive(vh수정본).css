@@ -1416,6 +1416,9 @@
   #tab-section .inner .item-nav li.click {
     top: 2px;
   }
+  #tab-section .inner .item-box {
+    margin: 0;
+  }
   #tab-section .inner .item-box .item {
     height: 45%;
     width: 87%;
@@ -1518,7 +1521,11 @@
   }
   .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .slide-img {
     bottom: 50%;
-    height: 110%;
+    height: 90%;
+  }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 236px; height: 258px;
+    border-radius: 5px;
   }
   .contact .inner {
     padding: 3rem;
@@ -1532,7 +1539,7 @@
     margin-left: 0;
   }
   #header .inner .right .menu-hamburger {
-    left: 36%;
+    left: 34%;
   }
   #header .inner .right .darkBtn .toggleSwitch {
     padding: 0.25rem;
@@ -1582,7 +1589,7 @@
     margin-bottom: 2rem;
   }
   #tab-section .inner .item-nav li.click {
-    top: 1px;
+    top: 1.5px;
   }
   #tab-section .inner .title .right-title {
     width: 90% !important;
@@ -1655,6 +1662,9 @@
   .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
     top: 50%; left: -83%;
   }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 205px; height: 226px;
+  }
   .contact .inner {
     padding: 2rem;
   }
@@ -1667,7 +1677,7 @@
 }
 @media screen and (max-width: 270px) {
   #header .inner .right .menu-hamburger {
-    left: 33%;
+    left: 31%;
   }
   .section01 .inner .loading {
     width: 27rem; height: 16.5rem;
