@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example me portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon-folder.png">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- aos animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive(vh수정본).css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- JS -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <figure class="overlay"></figure>
+      <header id="header">
+        <div class="inner">
+          <p class="name">example me <em>portfolio</em></p>
+          <div class="right">
+            <ul class="menu">
+              <li><a href="#">introduce</a></li>
+              <li><a href="#">redesign</a></li>
+              <li><a href="#">clone coding</a></li>
+              <li><a href="#">project</a></li>
+              <li><a href="#">etc</a></li>
+            </ul>
+            <div class="menu-hamburger">
+              <span class="first-line"></span>
+              <span class="second-line"></span>
+              <span class="third-line"></span>
+            </div>
+            <button class="darkBtn">
+              <input type="checkbox" id="toggle" />
+              <label for="toggle" class="toggleSwitch">
+                <em class="toggleButton">
+                  <!-- <img class="remove" src="images/light.png" alt="light-mode">
+                    <img class="darkk" src="images/dark.png" alt="dark-mode"> -->
+                </em>
+              </label>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- 반응형 1230px 부터 나오는 햄버거 -->
+      <div class="hamburger-popup">
+        <div class="popup-inner">
+          <ul>
+            <li><a href="#">introduce</a></li>
+            <li><a href="#">redesign</a></li>
+            <li><a href="#">clone coding</a></li>
+            <li><a href="#">project</a></li>
+            <li><a href="#">etc</a></li>
+          </ul>
+        </div>
+      </div>
+      <main id="main">
+        <div class="first-main">
+          <div class="content">
+            <div class="title">
+              <p class="big-title name2">
+                i'm<br />example <span class="darklinedark"></span> me
+              </p>
+              <p class="small-title Typing"></p>
+            </div>
+            <div class="text typing name2"></div>
+          </div>
+        </div>
+        <section class="section01">
+          <div class="inner">
+            <div class="loading" data-aos="fade-up" data-aos-duration="800">
+              <div class="bar">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+              </div>
+              <div class="box">
+                <div class="keepgoing">
+                  <p>keep going</p>
+                  <div class="circle-box">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                </div>
+                <div class="loading-bar">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <img
+              src="images/mouse-cursor.png"
+              alt="mouse-cursor "
+              class="mouse"
+            />
+            <div class="folder-group">
+              <div
+                class="folder folder01"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="500"
+              >
+                <a href="resume.html">
+                  <img
+                    src="images/mini_folder.png"
+                    alt="folder01"
+                    class="dark-folder-change"
+                  />
+                  <p class="folder-name name2">resume</p>
+                </a>
+              </div>
+              <div
+                class="folder folder02"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="700"
+              >
+                <a
+                  href="https://www.notion.so/mongzzoman/yena-s-portfolio-6f886b0ea0c942c582ffc010a7231258?pvs=4"
+                  target="_blank"
+                >
+                  <img
+                    src="images/mini_folder.png"
+                    alt="folder02"
+                    class="dark-folder-change"
+                  />
+                  <p class="folder-name name2">notion</p>
+                </a>
+              </div>
+              <div
+                class="folder folder03"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-delay="900"
+              >
+                <a
+                  href="Keep Going! 열심히 나아가는 디자이너가 되겠습니다 - 임예나_yyn30056-2x5of29.pdf"
+                  target="_blank"
+                >
+                  <img
+                    src="images/mini_folder.png"
+                    alt="folder03"
+                    class="dark-folder-change"
+                  />
+                  <p class="folder-name name2">pdf</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section02 web-redesign" id="tab-section">
+          <div class="inner">
+            <div class="title">
+              <div class="left-title">
+                <div class="left-animate-title">
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="100"
+                    data-aos-duration="450"
+                    >w</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="150"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="200"
+                    data-aos-duration="450"
+                    >b</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="300"
+                    data-aos-duration="450"
+                    >r</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="350"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="400"
+                    data-aos-duration="450"
+                    >d</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="450"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="500"
+                    data-aos-duration="450"
+                    >s</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="550"
+                    data-aos-duration="450"
+                    >i</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="600"
+                    data-aos-duration="450"
+                    >g</em
+                  >
+                  <em
+                    class="webredesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="650"
+                    data-aos-duration="450"
+                    >n</em
+                  >
+                </div>
+              </div>
+              <span
+                class="darkline"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              ></span>
+              <div
+                class="right-title"
+                data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              >
+                기존 웹 사이트의 문제점을 개선해 리디자인한 작업물입니다. UI/UX를 공부하면서 처음 작업해 본 거라 아직은 저의 주관적인 관점만으로 문제점을 찾고 리디자인 했는데 좀 더 공부를 하고 여러사람들이 편하게 사용할 수 있도록 리디자인 하고 싶습니다.
+              </div>
+            </div>
+            <ul class="item-nav">
+              <li><a href="#file01">01.</a></li>
+              <li><a href="#file02">02.</a></li>
+              <li><a href="#file03">03.</a></li>
+              <!-- <li><a href="#file04">04.</a></li> -->
+            </ul>
+            <div class="item-box">
+              <div class="item" id="file01">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">i'm eco</h1>
+                  <p class="dark-mode">
+                    처음으로 리디자인 해 본 아임에코몰 웹사이트 입니다. (반응형
+                    작업 중) <br />
+                    브랜드의 특징을 부각시키고 좀 더 편하게 상품을 구경할 수
+                    있도록 작업했습니다.<br />
+                    <br />
+                    HTML &nbsp; CSS &nbsp; J Query &nbsp; Swiper &nbsp; Adobe
+                    Photoshop
+                  </p>
+                  <div class="button">
+                    <a
+                      href="https://imecomall.co.kr/v2/"
+                      target="_blank"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="more-view 파일/아임에코-리디자인코딩-복사본/index.html"
+                      target="_blank"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="file02">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">열심히 하겠습니다!</h1>
+                  <p class="dark-mode">
+                    열심히 공부하고 디자인 해서 지금은 탭 메뉴가 3개지만 갯수를
+                    늘려 채워나갈 수 있도록 열심히 공부하고 디자인하겠습니다!
+                  </p>
+                  <div class="button">
+                    <a
+                      href="#"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="#"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="file03">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">열심히 하겠습니다!</h1>
+                  <p class="dark-mode">
+                    열심히 공부하고 디자인 해서 지금은 탭 메뉴가 3개지만 갯수를
+                    늘려 채워나갈 수 있도록 열심히 공부하고 디자인하겠습니다!
+                  </p>
+                  <div class="button">
+                    <a
+                      href="#"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="#"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="item" id="file04">
+                <div class="image-wrap" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div class="item-content" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
+                  <h1>i'm easfco</h1>
+                  <p>
+                    아임에코몰 웹사이트를 클론코딩 작업 했습니다 <br />
+                    아임에코몰 아임에코 몰 사이트 웹 디자인 클론 코딩 작업을
+                    했습니다<br />
+                    평범한 스와이퍼 슬라이드가 아닌 색다른 슬라이드 기능을
+                    구현하기 위해<br />
+                    여러가지 방법을 시도했으며 구현하는 데 성공했습니다
+                  </p>
+                  <div class="button">
+                    <a href="#" class="original" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">original</a>
+                    <a href="#" class="moreview" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">more view</a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <section class="section03 clone-coding" id="tab-section">
+          <div class="inner">
+            <div class="title">
+              <div class="left-title">
+                <div class="left-animate-title">
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="100"
+                    data-aos-duration="450"
+                    >c</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="150"
+                    data-aos-duration="450"
+                    >l</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="200"
+                    data-aos-duration="450"
+                    >o</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="250"
+                    data-aos-duration="450"
+                    >n</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="300"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="400"
+                    data-aos-duration="450"
+                    >c</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="450"
+                    data-aos-duration="450"
+                    >o</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="500"
+                    data-aos-duration="450"
+                    >d</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="550"
+                    data-aos-duration="450"
+                    >i</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="600"
+                    data-aos-duration="450"
+                    >n</em
+                  >
+                  <em
+                    class="clonecoding"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="650"
+                    data-aos-duration="450"
+                    >g</em
+                  >
+                </div>
+              </div>
+              <span
+                class="darkline"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              ></span>
+              <div
+                class="right-title"
+                data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              >
+                기존 웹 사이트를 클론코딩한 작업물들입니다. 어떻게 구조를 짜고
+                어떤 기능을 썼는지 하나하나 뜯어보며 공부하는 좋은 경험이
+                되었기에 앞으로도 클론코딩을 통해 열심히 공부 할 예정입니다.
+              </div>
+            </div>
+            <ul class="item-nav">
+              <li><a href="#file01">01.</a></li>
+              <li><a href="#file02">02.</a></li>
+              <li><a href="#file03">03.</a></li>
+              <!-- <li><a href="#file04">04.</a></li> -->
+            </ul>
+            <div class="item-box">
+              <div class="item" id="file01">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">anychem</h1>
+                  <p class="dark-mode">
+                    애니켐 웹사이트를 클론코딩 작업 했습니다. 스와이퍼가 어렵게
+                    설계되어 있어 구축하는 데 오랜 시간이 걸렸지만 여러 방법을 쓰며 공부하는
+                    뜻깊은 시간이었습니다.<br /><br />
+                    HTML &nbsp; CSS &nbsp; J Query &nbsp; Swiper &nbsp; AOS
+                    animate
+                  </p>
+                  <div class="button">
+                    <a
+                      href="http://www.any-chem.com/"
+                      target="_blank"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="more-view 파일/애니켐-클론코딩-복사본/index.html"
+                      target="_blank"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="file02">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">추사기념관</h1>
+                  <p class="dark-mode">
+                    추사기념관 웹사이트를 클론코딩 작업 했습니다 <br />
+                    새로운 스와이퍼 pagination과 css로 다양한 효과를 나타내는
+                    방법에 대해서 공부할 수 있었습니다.<br /><br />HTML &nbsp;
+                    CSS &nbsp; J Query &nbsp; Swiper
+                  </p>
+                  <div class="button">
+                    <a
+                      href="https://www.yesan.go.kr/chusa.do#popup"
+                      target="_blank"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="more-view 파일/추사기념관-클론코딩-복사본/index.html"
+                      target="_blank"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="file03">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">열심히 하겠습니다!</h1>
+                  <p class="dark-mode">
+                    부족한 부분을 공부할 수 있는 기능이 있는 사이트를 골라
+                    하나하나 뜯어보며 열심히 공부하겠습니다
+                  </p>
+                  <div class="button">
+                    <a
+                      href="#"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="#"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="item" id="file04">
+                <div class="image-wrap" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div class="item-content" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
+                  <h1>i'm easfco</h1>
+                  <p>
+                    아임에코몰 웹사이트를 클론코딩 작업 했습니다 <br />
+                    아임에코몰 아임에코 몰 사이트 웹 디자인 클론 코딩 작업을
+                    했습니다<br />
+                    평범한 스와이퍼 슬라이드가 아닌 색다른 슬라이드 기능을
+                    구현하기 위해<br />
+                    여러가지 방법을 시도했으며 구현하는 데 성공했습니다
+                  </p>
+                  <div class="button">
+                    <a href="#" class="original" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">original</a>
+                    <a href="#" class="moreview" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">more view</a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <section class="section04 design-project" id="tab-section">
+          <div class="inner">
+            <div class="title">
+              <div class="left-title">
+                <div class="left-animate-title">
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="100"
+                    data-aos-duration="450"
+                    >d</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="150"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="200"
+                    data-aos-duration="450"
+                    >s</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="250"
+                    data-aos-duration="450"
+                    >i</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="300"
+                    data-aos-duration="450"
+                    >g</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="350"
+                    data-aos-duration="450"
+                    >n</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="450"
+                    data-aos-duration="450"
+                    >p</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="500"
+                    data-aos-duration="450"
+                    >r</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="550"
+                    data-aos-duration="450"
+                    >o</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="600"
+                    data-aos-duration="450"
+                    >j</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="650"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="700"
+                    data-aos-duration="450"
+                    >c</em
+                  >
+                  <em
+                    class="designproject"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="750"
+                    data-aos-duration="450"
+                    >t</em
+                  >
+                </div>
+              </div>
+              <span
+                class="darkline"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              ></span>
+              <div
+                class="right-title"
+                data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              >
+                개인 웹 디자인 작업 뿐만 아니라 팀 프로젝트를 통해 리디자인하고 코딩으로 구현한 웹 사이트와 모바일 앱 작업한 디자인들
+                입니다.
+              </div>
+            </div>
+            <ul class="item-nav">
+              <li><a href="#file01">01.</a></li>
+              <li><a href="#file02">02.</a></li>
+              <li><a href="#file03">03.</a></li>
+              <!-- <li><a href="#file04">04.</a></li> -->
+            </ul>
+            <div class="item-box">
+              <div class="item" id="file01">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">gego-mall</h1>
+                  <p class="dark-mode">
+                    강아지 고양이를 위한 반려동물 쇼핑몰 사이트입니다.<br />
+                    귀여운 컨셉에 맞는 컬러와 폰트를 사용했으며 와이어프레임을
+                    새로 구성해 구현했습니다.<br /><br />
+
+                    와이어프레임, 배너, 아이콘 디자인 작업과 코딩(+반응형)
+                    작업을 맡았습니다.<br />
+                    HTML &nbsp; CSS &nbsp; J Query &nbsp; Swiper &nbsp; AOS
+                    animate
+                  </p>
+                  <div class="button">
+                    <a
+                      href="https://www.gegomall.com/"
+                      target="_blank"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="more-view 파일/개고몰-팀프로젝트-복사본/고양이.html"
+                      target="_blank"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="file02">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">mobile app</h1>
+                  <p class="dark-mode">열심히 하겠습니다!</p>
+                  <div class="button">
+                    <a
+                      href="#"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="#"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="item" id="file03">
+                <div
+                  class="image-wrap"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="500"
+                >
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div
+                  class="item-content"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-duration="500"
+                >
+                  <h1 class="dark-mode">열심히 하겠습니다!</h1>
+                  <p class="dark-mode">열심히 하겠습니다</p>
+                  <div class="button">
+                    <a
+                      href="#"
+                      class="original dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                      data-aos-duration="300"
+                      >original</a
+                    >
+                    <a
+                      href="#"
+                      class="moreview dark-mode"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                      data-aos-duration="300"
+                      >more view</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="item" id="file04">
+                <div class="image-wrap" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                  <div class="bar">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                  </div>
+                  <a href="#">
+                    <div class="image-box"></div>
+                  </a>
+                </div>
+                <div class="item-content" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
+                  <h1>i'm easfco</h1>
+                  <p>
+                    아임에코몰 웹사이트를 클론코딩 작업 했습니다 <br />
+                    아임에코몰 아임에코 몰 사이트 웹 디자인 클론 코딩 작업을
+                    했습니다<br />
+                    평범한 스와이퍼 슬라이드가 아닌 색다른 슬라이드 기능을
+                    구현하기 위해<br />
+                    여러가지 방법을 시도했으며 구현하는 데 성공했습니다
+                  </p>
+                  <div class="button">
+                    <a href="#" class="original" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">original</a>
+                    <a href="#" class="moreview" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">more view</a>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <!-- swiper slide active 클릭하면 나오는 popup -->
+        <div class="etc-design-popup">
+          <div class="etc-design-popup-wrapper">
+            <!-- 까만 투명배경 -->
+            <div class="etc-design-popup-mask"></div>
+            <div class="etc-design-img-box">
+              <img src="images/exit-icon.png" alt="exit" class="exit" />
+              <img src="#" alt="" class="img" />
+              <p class="first-title"></p>
+              <p class="second-title"></p>
+            </div>
+          </div>
+        </div>
+        <section class="section05 etc-design" id="tab-section">
+          <div class="inner">
+            <div class="title">
+              <div class="left-title">
+                <div class="left-animate-title">
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="100"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="150"
+                    data-aos-duration="450"
+                    >t</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="200"
+                    data-aos-duration="450"
+                    >c</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="300"
+                    data-aos-duration="450"
+                    >d</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="350"
+                    data-aos-duration="450"
+                    >e</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="400"
+                    data-aos-duration="450"
+                    >s</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="450"
+                    data-aos-duration="450"
+                    >i</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="500"
+                    data-aos-duration="450"
+                    >g</em
+                  >
+                  <em
+                    class="etcdesign"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="550"
+                    data-aos-duration="450"
+                    >n</em
+                  >
+                </div>
+              </div>
+              <span
+                class="darkline"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              ></span>
+              <div
+                class="right-title"
+                data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-duration="700"
+              >
+                웹 디자인 뿐만 아니라 다양한 디자인을 Adobe Illustrator, Adobe Photoshop, Figma를 통해 작업했습니다
+              </div>
+            </div>
+            <div
+              class="item-box"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="300"
+            >
+              <div class="bar">
+                <div class="line-icon">
+                  <img src="images/etc-prev-icon.png" alt="prev" />
+                  <img src="images/etc-next-icon.png" alt="next" />
+                  <img src="images/etc-back-icon.png" alt="back" />
+                </div>
+                <div class="address-box">
+                  <img src="images/자물쇠icon.png" alt="자물쇠" />
+                  <em class="example">www.example_me.com</em>
+                </div>
+                <div class="circle-icon">
+                  <span class="circle1"></span>
+                  <span class="circle2"></span>
+                  <span class="circle3"></span>
+                </div>
+              </div>
+              <div class="swiper etcSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/힐링이필요해2.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img1"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/쉼 포스터.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img2"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/거리예술마켓  포스터.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img3"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/12월마켓오픈인포.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img4"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/힐링이 필요해.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img5"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/몽쪼만하우스-테라스-인스타2-02.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img6"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/몽쪼만하우스-키친-인스타-02.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img7"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/몽쪼만하우스-방-인스타1-02.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img8"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="javascript: void(0)">
+                      <img
+                        src="images/folder_BG-앞부분.png"
+                        alt="folder앞부분"
+                        class="folder-front"
+                      />
+                      <img
+                        src="images/몽쪼만하우스-키친-인스타-02.jpg"
+                        alt="slideimage"
+                        class="slide-img slide-img7"
+                      />
+                      <img
+                        src="images/folder_BG.png"
+                        alt="folder"
+                        class="folder"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="control">
+                  <div class="prev">
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                  <div class="swiper-scrollbar"></div>
+                  <div class="next">
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="contact">
+          <div class="inner">
+            <div
+              class="contact-box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="300"
+            >
+              <img
+                src="images/mouse-cursor.png"
+                alt="mouse-cursor "
+                class="mouse"
+              />
+              <div class="bar">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+              </div>
+              <div class="box">
+                <form action="#">
+                  <div class="form-group">
+                    <label for="name">name</label>
+                    <input type="text" id="name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">e-mail</label>
+                    <input type="email" id="email" />
+                  </div>
+                  <div class="form-group">
+                    <label for="msg">message</label>
+                    <textarea id="msg"></textarea>
+                  </div>
+                  <button>send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="footer">
+        <div class="inner">
+          <div class="animate-typing">
+            <div class="animate-typing-up">
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="100"
+                data-aos-duration="250"
+                >t</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="200"
+                data-aos-duration="250"
+                >h</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="300"
+                data-aos-duration="250"
+                >a</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="400"
+                data-aos-duration="250"
+                >n</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="500"
+                data-aos-duration="250"
+                >k</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="600"
+                data-aos-duration="250"
+                >y</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="700"
+                data-aos-duration="250"
+                >o</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="800"
+                data-aos-duration="250"
+                >u</em
+              >
+            </div>
+            <div class="animate-typing-down">
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="500"
+                data-aos-duration="250"
+                >f</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="600"
+                data-aos-duration="250"
+                >o</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="700"
+                data-aos-duration="250"
+                >r</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="800"
+                data-aos-duration="250"
+                >w</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="900"
+                data-aos-duration="250"
+                >a</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="1000"
+                data-aos-duration="250"
+                >t</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="1100"
+                data-aos-duration="250"
+                >c</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="1200"
+                data-aos-duration="250"
+                >h</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="1300"
+                data-aos-duration="250"
+                >i</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="1400"
+                data-aos-duration="250"
+                >n</em
+              >
+              <em
+                data-aos="zoom-out-up"
+                data-aos-anchor-placement="center-center"
+                data-aos-delay="1500"
+                data-aos-duration="250"
+                >g</em
+              >
+            </div>
+          </div>
+          <p class="copyright">&copy; 2023 YIM YENA All Rights RESERVED.</p>
+        </div>
+        <!-- gotop 버튼 : 누르면 맨 위로 스르륵 올라가도록 -->
+        <a href="#" class="gotop">
+          <img src="images/gotop-icon.png" alt="gotop" />
+        </a>
+      </footer>
+    </div>
+    <!-- aos animate -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

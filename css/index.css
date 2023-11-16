@@ -1,0 +1,318 @@
+@charset "utf-8";
+
+/* poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.clear {
+  content: "";
+  clear: both;
+  display: block;
+}
+.wrap {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+/* ================================ */
+
+/* #header 시작 */
+#header {
+  width: 100%;
+  height: 88px;
+  background-color: #fff;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
+}
+#header .inner {
+  width: 100%;
+  /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); */
+  height: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .inner .name {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+#header .inner .center {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#header .inner .jop {
+  font-size: 1rem;
+}
+
+/* #main-section1 시작 */
+#main {
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 250px; */
+}
+#main .section-margin {
+  display: block;
+  width: 100%;
+  height: 20vh;
+}
+#main section {
+  padding: 0 15.623rem;
+  background: url("../images/noise-grid_BG.png") no-repeat center/cover;
+  background-size: 100%;
+  width: 100%;
+  height: calc(100vh - 88px);
+}
+#main .section1 .inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#main .section1 .inner .portfolio {
+  text-transform: uppercase;
+  font-size: 6rem;
+  color: white;
+  text-shadow: 2px 0 0 black, 0 2px 0 black, -2px 0 0 black, 0 -2px 0 black;
+  margin: 170px 0 20px;
+}
+#main .section1 .inner .search {
+  width: 800px;
+  height: 120px;
+  border: 2px solid;
+  border-radius: 100px;
+  position: relative;
+  background-color: white;
+}
+#main .section1 .inner .search .search-icon {
+  width: 30px;
+  height: 30px;
+  background: url("../images/search-icon.png") no-repeat center/cover;
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  transform: translateY(-50%);
+}
+#main .section1 .inner .search .typing {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-weight: bold;
+  /* letter-spacing: 0.05rem; */
+  /* position: fixed; */
+  white-space: nowrap;
+  margin: 0;
+  color: transparent;
+  width: 350px;
+}
+#main .section1 .inner .search .typing strong {
+  /* text-transform: uppercase;
+  font-size: 2.2rem; */
+}
+#main .section1 .inner .search .typing::before {
+  content: "YIM YENA's portfolio";
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  width: 350px;
+  height: 100%;
+  overflow: hidden;
+  color: black;
+  letter-spacing: 0.05rem;
+  border-right: 3px solid #ff90d0;
+  animation: typing 10s steps(28) infinite;
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+#main .section1 .inner .search .mouse img {
+  display: block;
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 60%;
+  animation: mouse 2s steps(2) infinite;
+}
+@keyframes mouse {
+  0% {
+    right: -20px;
+    top: 100%;
+  }
+  100% {
+    right: 0;
+    top: 60%;
+  }
+}
+
+/* #main-section2 시작 */
+#main .section2 .inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#main .section2 .inner > img {
+  display: block;
+  height: 280px;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+  animation: yeah ease-in-out 7s infinite;
+}
+@keyframes yeah {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  60% {
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#main .section2 .inner .folder-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  top: 0;
+  right: -15%;
+}
+#main .section2 .inner .folder-box img {
+  display: block;
+  width: 100px;
+}
+#main .section2 .inner .folder-box p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* #main-section3 시작 */
+#main .section .inner {
+  width: 100%;
+  height: 100%;
+}
+#main .section p.main {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+#main .section .inner .item-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  margin-top: 100px;
+}
+#main .section .inner .item-box .item {
+  width: 700px;
+}
+#main .section .inner .item-box .item .thumbnail {
+}
+#main .section .inner .item-box .item .thumbnail .bar {
+  width: 100%;
+  height: 45px;
+  border-radius: 20px 20px 0 0;
+  border: 1px solid;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+  background-color: #fff;
+}
+#main .section .inner .item-box .item .thumbnail .bar .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+#main .section3 .inner .item-box .item .thumbnail .bar .circle1 {
+  background-color: #5fd262;
+}
+#main .section3 .inner .item-box .item .thumbnail .bar .circle2 {
+  background-color: #fff;
+}
+#main .section3 .inner .item-box .item .thumbnail .bar .circle3 {
+  background-color: #224e12;
+}
+#main .section .inner .item-box .item1 .thumbnail .thumb-img {
+  padding-top: 59%;
+  border-radius: 0 0 20px 20px;
+  background: url("../images/아임에코\ 리디자인\ 썸네일.png") no-repeat top;
+  background-size: cover;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+#main .section .inner .item-box .item2 .thumbnail .thumb-img {
+  border: 1px solid red;
+  padding-top: 59%;
+  border-radius: 0 0 20px 20px;
+}
+#main .section .inner .item-box .item .up-content {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .section .inner .item-box .item .up-content .thumb-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#main .section .inner .item-box .item .up-content .button {
+  width: 140px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #fff;
+}
+#main .section .inner .item-box .item .up-content .button a {
+  display: block;
+}
+#main .section .inner .item-box .item .up-content .button a .button-name {
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.1rem;
+}
+#main .section .inner .item-box .item .down-content {
+  margin-top: 30px;
+}
+#main .section .inner .item-box .item .down-content .thumb-content {
+}

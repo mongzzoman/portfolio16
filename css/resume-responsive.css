@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@media screen and (max-width: 774px) {
+  html {
+    font-size: 12px;
+  }
+  .wrap-box {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .left-box {
+    width: 100%;
+    height: 30%;
+    border-right: 0;
+    border-bottom: 3px solid #333;
+    overflow: hidden;
+  }
+  .left-box .yeah-box {
+    width: 100%; height: 100%;
+    margin: 0;
+  }
+  .left-box .yeah-box img {
+    top: 5%; left: 32%;
+    width: 38%;
+  }
+  .right-box {
+    width: 100%;
+    height: 70%;
+  }
+  .profile {
+    padding: 0.5rem;
+  }
+  .introduce {
+    padding: 0.5rem;
+  }
+  .skill {
+    padding: 0.5rem;
+  }
+  .skill .skill-box .img-box {
+    border-radius: 27px;
+  }
+  .charactor .down .broad-minded {
+    width: 145px;
+  }
+}
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 10px;
+    }
+    .left-box {
+        width: 100%;
+        height: 30%;
+        border-right: 0;
+        border-bottom: 3px solid #333;
+        overflow: hidden;
+      }
+      .left-box .yeah-box {
+        width: 100%; height: 100%;
+        margin: 0;
+      }
+      .left-box .yeah-box img {
+        top: 15%; left: 25%;
+        width: 50%;
+      }
+      .right-box {
+        width: 100%;
+        height: 70%;
+      }
+      .profile {
+        padding: 2rem 0.5rem;
+      }
+      .right-box .profile-img {
+        top: -6rem;
+      }
+      .right-box .profile-img .circle-frame {
+        width: 14rem; height: 14rem;
+      }
+      .right-box .profile-img .circle-frame img {
+        width: 12rem; height: 12rem;
+        top: 3%; left: 3%;
+      }
+      .right-box .profile-img .pink-mouse {
+        width: 2rem;
+      }
+      .introduce {
+        padding: 2rem 0.5rem;
+      }
+      .skill {
+        padding: 2rem 0.5rem;
+        height: 25%;
+      }
+      .skill .skill-box .img-box {
+        border-radius: 23px;
+        width: 4rem; height: 4rem;
+      }
+      .skill .skill-box .img-box img {
+        width: 2rem; height: 2rem;
+      }
+      .skill .skill-box p {
+        font-size: 0.8rem;
+      }
+      .charactor .down .broad-minded {
+        width: 120px;
+      }
+}
