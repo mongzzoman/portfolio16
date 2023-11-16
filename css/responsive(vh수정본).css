@@ -422,7 +422,7 @@
   #header .inner .right .darkBtn {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: -23px;
     transform: translate(-50%, -50%);
   }
   .section01 .inner .mouse {
@@ -1037,6 +1037,9 @@
   #header .inner {
     padding: 0 2rem;
   }
+  #header .inner .name > em {
+    margin-left: 0;
+  }
   #header .inner .right .darkBtn .toggleSwitch {
     border: 1px solid #333;
   }
@@ -1156,8 +1159,9 @@
     display: none;
   }
   #tab-section .inner .title .right-title {
-    width: 74% !important;
+    width: 83% !important;
     text-align: center;
+    transform: scale(0.95);
   }
   #tab-section .inner .item-nav li {
     width: 8.75rem;
@@ -1201,6 +1205,12 @@
   }
   #tab-section .inner .item-box .item .item-content .button {
     margin: 0 auto;
+  }
+  #tab-section .inner .item-box .item .item-content .button .original {
+    border-radius: 8px;
+  }
+  #tab-section .inner .item-box .item .item-content .button .moreview {
+    border-radius: 8px;
   }
   .section03 .inner .item-box #file02 .item-content h1 {
     margin-top: 0;
@@ -1289,8 +1299,12 @@
     left: 1.23rem;
     width: 100px !important;
   }
+  .etc-design-popup .etc-design-popup-wrapper .etc-design-img-box {
+    width: 292px;
+    height: 310px;
+  }
   .contact .inner {
-    padding: 3rem;
+    padding: 2rem;
   }
   .contact .inner .contact-box .bar {
     padding: 1rem 1.2rem 1rem 1rem;
@@ -1302,7 +1316,7 @@
     height: 100vh;
   }
   #footer .inner {
-    padding: 5rem;
+    padding: 3rem;
   }
   #footer .inner .animate-typing {
     font-size: 4rem;
@@ -1314,6 +1328,12 @@
   }
   #header .inner {
     padding: 0 1.5rem;
+  }
+  #header .inner .right .menu-hamburger {
+    left: 36%;
+  }
+  #header .inner .right .darkBtn {
+    right: -15px;
   }
   #header .inner .right .darkBtn .toggleButton {
     width: 1.4rem; height: 1.4rem;
@@ -1391,14 +1411,13 @@
     padding-top: 2rem;
   }
   #tab-section .inner .title .right-title {
-    font-size: 0.5rem;
     width: 90% !important;
   }
   #tab-section .inner .item-nav li.click {
     top: 2px;
   }
   #tab-section .inner .item-box .item {
-    height: 39%;
+    height: 45%;
     width: 87%;
   }
   #tab-section .inner .item-box .item .image-wrap {
@@ -1491,6 +1510,16 @@
     left: 0.8rem;
     width: 100px !important;
   }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper {
+    margin-right: 58px;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .folder-front {
+    bottom: -17%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .slide-img {
+    bottom: 50%;
+    height: 110%;
+  }
   .contact .inner {
     padding: 3rem;
   }
@@ -1504,7 +1533,7 @@
     margin-left: 0;
   }
   #header .inner .right .menu-hamburger {
-    left: 32%;
+    left: 36%;
   }
   #header .inner .right .darkBtn .toggleSwitch {
     padding: 0.25rem;
@@ -1551,7 +1580,7 @@
     margin-bottom: 2rem;
   }
   #tab-section .inner .item-nav li.click {
-    top: 2px;
+    top: 1px;
   }
   #tab-section .inner .title .right-title {
     width: 90% !important;
@@ -1603,8 +1632,26 @@
   .section05 .inner .title .left-title {
     width: 100% !important;
   }
-  .section05 .inner .item-box .bar .address-box em {
-    font-size: 10px;
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .folder-front {
+    bottom: 10%;
+  }
+  .section05 .inner .item-box .etcSwiper .swiper-wrapper .swiper-slide a .slide-img {
+    height: 100%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev {
+    width: 3.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .prev .swiper-button-prev {
+    top: 50%; left: -92%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next {
+    width: 3.8%;
+  }
+  .section05 .inner .item-box .etcSwiper .control .swiper-scrollbar .swiper-scrollbar-drag {
+    top: 0.6rem; left: 1.2rem;
+  }
+  .section05 .inner .item-box .etcSwiper .control .next .swiper-button-next {
+    top: 50%; left: -83%;
   }
   .contact .inner {
     padding: 2rem;
